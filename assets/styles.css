@@ -14,19 +14,8 @@ body{
 h1{
     color: #ff0000;
     margin-top: 10px;
-    text-align: center;
+    text-align: left;
     padding: 10px;
-}
-
-p{
-    font-size: 1.325rem;
-    font-weight: 500;
-    color: #000;
-    margin-bottom: 5rem;
-    font-size: large;
-    font-style: normal;
-    color: rgb(0, 0, 0);
-    padding: 20px;
 }
 
 a{
