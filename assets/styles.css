@@ -15,6 +15,7 @@ h1{
     color: #ff0000;
     margin-top: 10px;
     text-align: center;
+    padding: 10px;
 }
 
 p{
@@ -25,6 +26,7 @@ p{
     font-size: large;
     font-style: normal;
     color: rgb(254, 254, 255);
+    padding: 20px;
 }
 
 a{
@@ -44,10 +46,12 @@ a:hover{
     color: #ff0000;
 }
 
-img{
+.img{
     width: 350px;
     height: 350px;
     padding: 20px;
+    align-items: center;
+    text-align: center;
 }
 
 img:hover{
@@ -73,4 +77,5 @@ img:hover{
     width: 50px;
     height: 50px;
     align-items: center;
+    padding: 30px;
 }
