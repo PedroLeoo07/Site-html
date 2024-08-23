@@ -68,3 +68,9 @@ img:hover{
 .text{
     text-align: center;
 }
+
+.contato{
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+}
