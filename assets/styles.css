@@ -14,7 +14,7 @@ body{
 h1{
     color: #ff0000;
     margin-top: 10px;
-    text-align: left;
+    text-align: center;
     padding: 10px;
 }
 
@@ -23,28 +23,28 @@ a{
     color: #ffffff;
     font-size: 1.5rem;
     font-weight: 100;
-    transition: 0.3s;
+    transition: 0.5s;
     padding: 20px;
 }
-
-
 a:hover{
-    transform: scale(1.1);
+    transform: scale(0.7);
     font-size:  2rem;;
     text-decoration: underline;
     color: #ff0000;
 }
 
+.
+
 .img{
     width: 350px;
     height: 350px;
-    padding: 20px;
+    padding: 30px;
     align-items: center;
     text-align: center;
 }
 
 img:hover{
-    transform: scale(1.1);
+    transform: scale(0.4);
 }
 
 .foto{
@@ -63,8 +63,8 @@ img:hover{
 }
 
 .contato{
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     align-items: center;
     padding: 30px;
     display: flex;
@@ -74,6 +74,17 @@ img:hover{
     border: 1px solid #000;
     padding: 5px;
     border-radius: 5px;
-    background-color: #eee;
+    background-color: #615f5f;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.animacao{
+    padding: 20px;
+    display: flex;
+}
+
+.animacao:hover{
+    transform: scale(1.1);
+    font-size: 1rem;
 }
