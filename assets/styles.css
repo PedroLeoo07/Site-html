@@ -1,5 +1,6 @@
 body{
     background-color: rgb(42, 42, 42);
+    margin-top: auto;
 }
 
 .header{
@@ -43,15 +44,14 @@ a:hover{
     text-align: center;
 }
 
-img:hover{
-    transform: scale(0.4);
-}
 
 .foto{
     background-color: #ffffff;
     width: 350px;
     height: 350px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center ;
 }
 
 .foto:hover{
@@ -81,8 +81,15 @@ img:hover{
 
 .container{
     background-color: #5f5f5f;
+    padding: 20px;
 }
 
 .animacao{
     padding: 10px;
+}
+
+p{
+    text-align: center;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
