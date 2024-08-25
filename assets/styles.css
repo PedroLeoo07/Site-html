@@ -51,7 +51,7 @@ a:hover{
     height: 350px;
     border-radius: 10px;
     display: flex;
-    justify-content: center ;
+    
 }
 
 .foto:hover{
@@ -92,4 +92,13 @@ p{
     text-align: center;
     font-size: large;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sobre{
+    border: 1px solid #000;
+    padding: 20git px;
+    border-radius: 5px;
+    background-color: #615f5f;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
 }
