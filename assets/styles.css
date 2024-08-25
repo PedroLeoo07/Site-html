@@ -50,6 +50,7 @@ a:hover{
     height: 350px;
     border-radius: 10px;
     display: flex;
+    justify-content: center;
     
 }
 
